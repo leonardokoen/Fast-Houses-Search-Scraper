@@ -1,0 +1,16 @@
+{
+    "name": "Facebook Group Scraper",
+    "description": "Scrape Facebook posts from a group",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "*://*.facebook.com/*"
+    ]
+  }
